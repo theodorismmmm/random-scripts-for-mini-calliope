@@ -2,7 +2,7 @@ from microbit import *
 import random
 
 while True:
-    display.show(Image.MEH)
+    display.show(Image.MEH) 
     rgb.clear()
     
     if microphone.sound_level() > 70:
